@@ -32,9 +32,7 @@ class MyClass {
 In JS, a class is a kind of function, can be assigned, passed, returned, etc. Can use `get` and `set`. Class fields set to individual objects, not the prototype. 
 
 ## Classes FROM https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
-Classes - a template for creating objects. Built on prototypes. A "special function". There are class expressions and class declarations. Classes are not hoisted. 
-
-Class expressions can be named or unnamed. 
+Classes - a template for creating objects. Built on prototypes. A "special function". There are class expressions and class declarations. Classes are not hoisted. Class expressions can be named or unnamed. 
 
 ```js
 // UNNAMED  
