@@ -1,12 +1,68 @@
+* {
+    font-family: sans-serif;
+}
+
 body {
     background-color: rgb(246, 255, 252);
+}
+
+.all-nav-bubbles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.all-nav-bubbles>a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.nav-bubbles {
+    background-color: tomato;
+    height: 150px;
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-bubbles:hover {
+    box-shadow: 0 5px 10px rgba(189, 46, 46, 0.801);
+}
+
+/* TOP NAV - select a tags */
+.top-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-nav>a {
+    margin: 0 5px 0 5px;
+    text-decoration: none;
+    font-size: 1.9rem;
+    color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.top-nav>a:hover {
+    color: black;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5vh;
+    margin: 3vh 0 5vh 0;
 }
 
 h1 {
@@ -55,27 +111,32 @@ footer {
     align-items: center;
 }
 
-a {
+.class-bubble-link>a {
     text-decoration: none;
     color: whitesmoke;
     font-size: 2rem;
 }
 
-
+/* FOUNDATIONS 1 LINKS */
 .class-bubble-link.foundations1 {
     background-color: rgb(8, 156, 156);
 }
+.class-bubble-link.foundations1:hover {
+    box-shadow: 4px 5px 15px rgba(46, 132, 189, 0.349);
+}
 
+/* FOUNDATION 2 LINKS */
 .class-bubble-link.foundations2 {
     background-color: rgb(27, 196, 196);
 }
+.class-bubble-link.foundations2:hover {
+    box-shadow: 4px 5px 15px rgba(46, 132, 189, 0.349);
+} 
 
+/* CAREER TRACK 1 LINKS */
 .class-bubble-link.career-track1 {
     background-color: rgb(148, 206, 206);
 }
-
-.class-bubble-link.foundations1:hover, .class-bubble-link.foundations2:hover, .class-bubble-link.career-track1:hover {
-    transition: all 0.3s ease;
-    background: rgba(3, 58, 58, 0.432);;
-  
+.class-bubble-link.career-track1:hover {
+    box-shadow: 4px 5px 15px rgba(46, 132, 189, 0.349);
 }
