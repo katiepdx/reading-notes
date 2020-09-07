@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(246, 255, 252);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+h1 {
+    height: 15vh;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+footer {
+    height: 5vh;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.all-class-links {
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 75vw;
+}
+
+.class-bubble-link {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    margin: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+
+.class-bubble-link.foundations1 {
+    background-color: rgb(8, 156, 156);
+}
+
+.class-bubble-link.foundations2 {
+    background-color: rgb(27, 196, 196);
+}
+
+.class-bubble-link.career-track1 {
+    background-color: rgb(148, 206, 206);
+}
+
+.class-bubble-link.foundations1:hover, .class-bubble-link.foundations2:hover, .class-bubble-link.career-track1:hover {
+    transition: all 0.3s ease;
+    background: rgba(3, 58, 58, 0.432);;
+  
+}
