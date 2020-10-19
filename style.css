@@ -140,3 +140,11 @@ footer {
 .class-bubble-link.career-track1:hover {
     box-shadow: 4px 5px 15px rgba(46, 132, 189, 0.349);
 }
+
+/* CAREER TRACK 2 LINKS */
+.class-bubble-link.career-track2 {
+    background-color: rgb(117, 197, 197);
+}
+.class-bubble-link.career-track2:hover {
+    box-shadow: 4px 5px 15px rgba(96, 179, 235, 0.349);
+}
